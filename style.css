@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: hsla(0, 33%, 97%, 0.993);
+}
+
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sedan{
+    background-color: rgba(255, 136, 0, 0.884);
+    padding: 2em;
+    width: 50%;
+}
+.sedan h3{
+    color: beige;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.sedan p{
+    color: beige;
+    font-size: 11px;
+    padding-bottom: 10px;
+}
+
+.suv{
+    background-color: #007180;
+    padding: 2em;
+    width: 50%;
+}
+.suv h3{
+    color: beige;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.suv p{
+    color: beige;
+    font-size: 11px;
+    padding-bottom: 10px;
+}
+
+.luxury{
+    background-color: rgb(11, 61, 58);
+    padding: 2em;
+    width: 50%;
+}
+.luxury h3{
+    color: beige;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.luxury p{
+    color: beige;
+    font-size: 11px;
+    padding-bottom: 10px;
+}
